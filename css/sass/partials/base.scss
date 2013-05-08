@@ -1,0 +1,54 @@
+/*---------------------------------------------------------*/
+// Base
+$base-line-height             : 25px !default; 
+$form-line-height             : 25px !default; 
+
+$font-size-default            : 14px !default;
+$font-color                   : #333 !default;
+
+
+$link-color                   : #D92680 !default;
+$link-hover-color             : #333333 !default;
+$link-visited-color           : #0084b5 !default;
+
+$selected-font-color          : #ffffff !default;
+$selected-background-color    : #0084b5 !default;
+
+$invalid-background-color     : #f0dddd !default;
+
+$col-main-nav                 : #333333 !default;
+$col-main-nav-hover           : #0084b5 !default;
+
+$col-on-bg                    : #808080 !default;
+
+//Variable colors used in mixins => set using the design guide
+$col-gray                     : #666666 !default;
+$col-light-gray               : #505050 !default;
+$col-dark-gray                : #292929 !default;
+$col-bg-gray                  : #6c6c6c !default;
+
+
+$col-blue                     : #0084b5 !default;
+$col-light-blue               : #688495 !default;
+$col-dark-blue                : #688495 !default;
+
+//More colors variable => also set with the design guide
+$col-orange                   : #f7a100 !default;
+$col-dark-orange              : #e3d100 !default;
+$col-cream                    : #f8f5ef !default;
+$col-dark-cream               : #e3d100 !default;
+
+$col-map-gray-bg              : #333333 !default;
+$col-map-blue-bg              : #5da1c7 !default;
+
+$col-yellow                   : #e5e208 !default;
+$col-border-content           : #cacaca !default;
+$col-author                   : #aeaeae !default;
+
+
+/*---------------------------------------------------------*/
+// Font-face fonts
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:100,400,800,700,600,300);
+$font-family-default          : 'Helvetica', Arial, sans-serif;
+$font-family-alt              : 'Open Sans', serif;
+$base-font-droid              : 'Droid Serif', serif;

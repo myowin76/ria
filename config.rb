@@ -1,4 +1,7 @@
 # Require any additional compass plugins here.
+# require 'compass-h5bp'
+# require 'html5-boilerplate'
+require 'susy'
 
 # Set this to the root of your project when deployed:
 http_path = "/"

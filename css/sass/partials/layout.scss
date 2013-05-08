@@ -1,0 +1,117 @@
+html{
+	background: url(../images/site_bg/bg_fabric.png) repeat #ddd;
+}
+
+body{
+	font-family: $font-family-default;
+	font-size: $font-size-default;
+	width: 100%;
+	min-height: 100%;
+	// font-size: 1em;
+  line-height: 1.4;
+  a{
+  	color: $link-color;
+  	text-decoration: none;
+  	&:hover{
+  		color: $link-hover-color;
+  	}
+  } 
+}
+
+.wrapper{
+	@include clearfix;
+	.ria-inner{
+		width: 80%;
+		// padding: 0 20px;
+		margin: 0 auto;
+	}
+	
+	header{
+		@include clearfix;
+		padding-top: 10px;
+		min-height: 80px;
+		.ria-inner{
+			position: relative;
+			.branding{
+				float: left;
+				width: 250px;
+			}
+		}
+		.account{
+			float: right;
+			li{
+				float: left;
+				font-size: 1em;
+				padding-left: 1em;
+				a{
+
+				}
+			}
+		}
+	}
+
+	.container{
+		overflow: hidden;
+		aside{
+			@include clearfix;
+			@include box-sizing(border-box);
+			background-color: #ddd; //to remove after dev
+			width: 25%;
+			float: left;
+		}
+		.content{
+			// background-color: #f9f9f9; //to remove after dev
+			padding-left: 25px;
+			width: 75%;
+			float: left;
+			@include box-sizing(border-box);
+		}
+	}
+
+	footer{
+		@include clearfix;
+		padding-top: 1em;
+		.copyright{
+			float: left;
+			width: auto;
+			padding-left: 1em;
+		}
+		ul{
+			padding-right: 1em;
+			float: right;
+			li{
+				float: left;
+				padding-left: 1em;
+			}
+		}
+	}
+
+	.block{
+		float: left;
+		// margin: 5px;
+		background: #f9f9f9;
+		// padding: 20px;
+		width: 260px;
+		h2{
+			font-size: 15px;
+			text-transform: uppercase;
+			background: #222;
+			color: white;
+			padding: 2px 5px;
+		}
+		img{
+			display: block;
+		}
+		.thumb-wrap{
+			overflow: hidden;
+			position: relative;
+			.thumb{
+				img{
+					max-width: 100%;
+				}
+			}
+		}
+	}
+
+}
+
