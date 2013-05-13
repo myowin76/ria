@@ -915,67 +915,73 @@ table {
 /* line 1, sass/partials/layout.scss */
 html {
   background: url(../images/site_bg/bg_fabric.png) repeat #dddddd;
+  height: 100%;
 }
 
-/* line 5, sass/partials/layout.scss */
+/* line 6, sass/partials/layout.scss */
 body {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 14px;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   line-height: 1.4;
 }
-/* line 12, sass/partials/layout.scss */
+/* line 14, sass/partials/layout.scss */
 body a {
   color: #d92680;
   text-decoration: none;
 }
-/* line 15, sass/partials/layout.scss */
+/* line 17, sass/partials/layout.scss */
 body a:hover {
   color: #333333;
 }
 
-/* line 21, sass/partials/layout.scss */
+/* line 23, sass/partials/layout.scss */
 .wrapper {
   overflow: hidden;
   *zoom: 1;
+  min-height: 100%;
+  position: relative;
 }
-/* line 23, sass/partials/layout.scss */
+/* line 27, sass/partials/layout.scss */
 .wrapper .ria-inner {
   width: 80%;
   margin: 0 auto;
 }
-/* line 29, sass/partials/layout.scss */
+/* line 33, sass/partials/layout.scss */
 .wrapper header {
   overflow: hidden;
   *zoom: 1;
   padding-top: 10px;
   min-height: 80px;
 }
-/* line 33, sass/partials/layout.scss */
+/* line 37, sass/partials/layout.scss */
 .wrapper header .ria-inner {
   position: relative;
 }
-/* line 35, sass/partials/layout.scss */
+/* line 39, sass/partials/layout.scss */
 .wrapper header .ria-inner .branding {
   float: left;
   width: 250px;
 }
-/* line 40, sass/partials/layout.scss */
+/* line 44, sass/partials/layout.scss */
 .wrapper header .account {
   float: right;
 }
-/* line 42, sass/partials/layout.scss */
+/* line 46, sass/partials/layout.scss */
 .wrapper header .account li {
   float: left;
   font-size: 1em;
   padding-left: 1em;
 }
-/* line 53, sass/partials/layout.scss */
+/* line 57, sass/partials/layout.scss */
 .wrapper .container {
   overflow: hidden;
+  padding-bottom: 60px;
+  /* Height of the footer */
+  min-height: 100%;
 }
-/* line 55, sass/partials/layout.scss */
+/* line 61, sass/partials/layout.scss */
 .wrapper .container aside {
   overflow: hidden;
   *zoom: 1;
@@ -986,7 +992,7 @@ body a:hover {
   width: 25%;
   float: left;
 }
-/* line 62, sass/partials/layout.scss */
+/* line 68, sass/partials/layout.scss */
 .wrapper .container .content {
   padding-left: 25px;
   width: 75%;
@@ -995,35 +1001,39 @@ body a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 71, sass/partials/layout.scss */
+/* line 77, sass/partials/layout.scss */
 .wrapper footer {
   overflow: hidden;
   *zoom: 1;
-  padding-top: 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Height of the footer */
 }
-/* line 74, sass/partials/layout.scss */
+/* line 85, sass/partials/layout.scss */
 .wrapper footer .copyright {
   float: left;
   width: auto;
   padding-left: 1em;
 }
-/* line 79, sass/partials/layout.scss */
+/* line 90, sass/partials/layout.scss */
 .wrapper footer ul {
   padding-right: 1em;
   float: right;
 }
-/* line 82, sass/partials/layout.scss */
+/* line 93, sass/partials/layout.scss */
 .wrapper footer ul li {
   float: left;
   padding-left: 1em;
 }
-/* line 89, sass/partials/layout.scss */
+/* line 100, sass/partials/layout.scss */
 .wrapper .block {
   float: left;
   background: #f9f9f9;
   width: 260px;
 }
-/* line 95, sass/partials/layout.scss */
+/* line 106, sass/partials/layout.scss */
 .wrapper .block h2 {
   font-size: 15px;
   text-transform: uppercase;
@@ -1031,16 +1041,16 @@ body a:hover {
   color: white;
   padding: 2px 5px;
 }
-/* line 102, sass/partials/layout.scss */
+/* line 113, sass/partials/layout.scss */
 .wrapper .block img {
   display: block;
 }
-/* line 105, sass/partials/layout.scss */
+/* line 116, sass/partials/layout.scss */
 .wrapper .block .thumb-wrap {
   overflow: hidden;
   position: relative;
 }
-/* line 109, sass/partials/layout.scss */
+/* line 120, sass/partials/layout.scss */
 .wrapper .block .thumb-wrap .thumb img {
   max-width: 100%;
 }

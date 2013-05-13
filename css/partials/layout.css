@@ -1,11 +1,9 @@
 /*
 Syntax error: Undefined variable: "$font-family-default".
-        on line 6 of /Users/aung/Sites/RIA/html/css/sass/partials/layout.scss
-
-1: /Users/aung/Sites/RIA/html/css/sass/partials/layout.scss
+        on line 8 of /Users/aung/Sites/RIA/html/css/sass/partials/layout.scss
 
 Backtrace:
-/Users/aung/Sites/RIA/html/css/sass/partials/layout.scss:6
+/Users/aung/Sites/RIA/html/css/sass/partials/layout.scss:8
 /Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/script/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/script/node.rb:40:in `perform'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.1/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
@@ -81,4 +79,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$font-family-default\".\A         on line 6 of /Users/aung/Sites/RIA/html/css/sass/partials/layout.scss\A \A 1: /Users/aung/Sites/RIA/html/css/sass/partials/layout.scss"; }
+  content: "Syntax error: Undefined variable: \"$font-family-default\".\A         on line 8 of /Users/aung/Sites/RIA/html/css/sass/partials/layout.scss"; }
